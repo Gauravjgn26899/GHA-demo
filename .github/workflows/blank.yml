@@ -5,14 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build step
-        run: echo"A demo build"
+        run: echo "A demo build"
   test:
     runs-on: ubuntu-latest
     steps:
       - name: Test phase
-        run: echo"Running test case"
+        run: echo "Running test case"
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy step
-        run: echo"deploy phase"
+        run: echo "deploy phase"
